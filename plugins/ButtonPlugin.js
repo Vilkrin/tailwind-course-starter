@@ -29,6 +29,14 @@ const buttonPlugin = plugin(function ({
       }
     }
   }
+  matchComponents({
+    btn: (value) => {
+      return {
+        backgroundColor: value,
+        color: lightOrDarkColor(value) === "dark" ? "white" : "black",
+      };
+    },
+  });
 });
 
 module.exports = buttonPlugin;
