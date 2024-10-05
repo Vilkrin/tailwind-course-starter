@@ -604,11 +604,6 @@ h6{
   border-radius: 0.5rem;
 }
 
-.btn-rose-500{
-  background-color: #f43f5e;
-  color: black;
-}
-
 .btn-\[\#000\]{
   background-color: #000;
   color: white;
@@ -1056,6 +1051,10 @@ h6{
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 
+.bg-gradient-to-br{
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+}
+
 .bg-gradient-to-r{
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -1085,6 +1084,10 @@ h6{
 
 .to-pink-500{
   --tw-gradient-to: #ec4899 var(--tw-gradient-to-position);
+}
+
+.to-rose-500{
+  --tw-gradient-to: #f43f5e var(--tw-gradient-to-position);
 }
 
 .to-teal-900{
@@ -1120,6 +1123,11 @@ h6{
   padding: 1rem;
 }
 
+.px-10{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .px-2{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -1143,6 +1151,15 @@ h6{
 .py-4{
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.py-40{
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.pb-40{
+  padding-bottom: 10rem;
 }
 
 .pb-5{
@@ -1305,6 +1322,21 @@ h6{
 
 .caption-bottom{
   caption-side: bottom;
+}
+
+.rounded-bltr-full{
+  border-bottom-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+}
+
+.rounded-bltr-\[30pxS\]{
+  border-bottom-left-radius: 30pxS;
+  border-top-right-radius: 30pxS;
+}
+
+.rounded-bltr-\[30px\]{
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
 
 .hover\:bg-sky-900:hover{
